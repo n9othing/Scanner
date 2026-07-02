@@ -42,7 +42,6 @@ Basic Usage
 Bash
 ```
 # Single domain
-python3 scanner.py example.com
 ```
 # Multiple domains
 python3 scanner.py example.com test.com api.example.com
