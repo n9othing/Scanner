@@ -76,10 +76,9 @@ python3 scanner.py example.com -t 100 --rate-limit 200
 # Custom output directory
 python3 scanner.py example.com -o /tmp/my_scan
 ```
-```
-
 Telegram Notifications (Optional)
 Bash
+```
 export TELEGRAM_BOT_TOKEN="your-bot-token"
 export TELEGRAM_CHAT_ID="your-chat-id"
 python3 scanner.py example.com
