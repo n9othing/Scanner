@@ -29,13 +29,13 @@ go install -v [github.com/tomnomnom/waybackurls@latest](https://github.com/tomno
 go install -v [github.com/lc/gau/v2/cmd/gau@latest](https://github.com/lc/gau/v2/cmd/gau@latest)
 go install -v [github.com/projectdiscovery/katana/cmd/katana@latest](https://github.com/projectdiscovery/katana/cmd/katana@latest)
 go install -v [github.com/maurosoria/dirsearch@latest](https://github.com/maurosoria/dirsearch@latest)
-
+```
 2. Clone Repository
 Bash
 
 git clone [https://github.com/n9othing/Scanner.git](https://github.com/n9othing/Scanner.git)
 cd Scanner
-
+```
 🚀 Usage
 
 Basic Usage
@@ -49,7 +49,7 @@ python3 scanner.py example.com test.com api.example.com
 
 # Domains from a file
 python3 scanner.py -l domains.txt
-
+```
 Common Flags
 Bash
 
@@ -73,11 +73,11 @@ python3 scanner.py example.com -o /tmp/my_scan
 
 Telegram Notifications (Optional)
 Bash
-
+```
 export TELEGRAM_BOT_TOKEN="your-bot-token"
 export TELEGRAM_CHAT_ID="your-chat-id"
 python3 scanner.py example.com
-
+```
 📂 Output Structure
 
 After running, results are saved to output/ directory:
@@ -95,7 +95,7 @@ output/
       findings.txt          ← Vulnerability findings (readable)
       findings.csv          ← Vulnerability findings (spreadsheet)
       scanner.log           ← Full debug log
-
+```
 🛡 Disclaimer
 
 This tool is for educational purposes and authorized security testing only. The developer is not responsible for any misuse or illegal activities conducted with this scanner. Always ensure you have explicit permission to test a target.
@@ -103,4 +103,4 @@ This tool is for educational purposes and authorized security testing only. The 
 
 Contributions are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.
 
-Developed with ❤️ by n9othing
+Developed with ❤️ by Hama Dev
