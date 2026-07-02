@@ -48,6 +48,7 @@ python3 scanner.py example.com
 # Multiple domains
 python3 scanner.py example.com test.com api.example.com
 ```
+```
 # Domains from a file
 python3 scanner.py -l domains.txt
 ```
