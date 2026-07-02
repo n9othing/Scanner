@@ -31,8 +31,8 @@ go install -v [github.com/projectdiscovery/katana/cmd/katana@latest](https://git
 go install -v [github.com/maurosoria/dirsearch@latest](https://github.com/maurosoria/dirsearch@latest)
 ```
 2. Clone Repository
-Bash
-```
+```Bash
+
 git clone [https://github.com/n9othing/Scanner.git](https://github.com/n9othing/Scanner.git)
 cd Scanner
 ```
@@ -62,28 +62,31 @@ python3 scanner.py example.com --crawl-only
 # Skip subdomain enumeration
 python3 scanner.py -l alive_hosts.txt --skip-subfinder
 ```
+```
 # High-severity only, fast scan
+```
 python3 scanner.py example.com --severity high,critical --concurrency 50
 ```
 # Resume a previously interrupted scan
+
 python3 scanner.py example.com --resume
-```
-```
+
+
 # Custom threads and rate limit
 python3 scanner.py example.com -t 100 --rate-limit 200
-```
-```
+
+
 # Custom output directory
 python3 scanner.py example.com -o /tmp/my_scan
-```
+
 Telegram Notifications (Optional)
 Bash
-```
+
 export TELEGRAM_BOT_TOKEN="your-bot-token"
 export TELEGRAM_CHAT_ID="your-chat-id"
 python3 scanner.py example.com
-```
 📂 Output Structure
+
 After running, results are saved to output/ directory:
 Plaintext
 ```
