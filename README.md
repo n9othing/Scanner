@@ -64,7 +64,6 @@ python3 scanner.py -l alive_hosts.txt --skip-subfinder
 ```
 ```
 # High-severity only, fast scan
-```
 python3 scanner.py example.com --severity high,critical --concurrency 50
 ```
 # Resume a previously interrupted scan
