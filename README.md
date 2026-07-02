@@ -32,7 +32,7 @@ go install -v [github.com/maurosoria/dirsearch@latest](https://github.com/mauros
 ```
 2. Clone Repository
 Bash
-
+```
 git clone [https://github.com/n9othing/Scanner.git](https://github.com/n9othing/Scanner.git)
 cd Scanner
 ```
