@@ -40,37 +40,37 @@ cd Scanner
 
 Basic Usage
 Bash
-
+```
 # Single domain
 python3 scanner.py example.com
-
+```
 # Multiple domains
 python3 scanner.py example.com test.com api.example.com
-
+```
 # Domains from a file
 python3 scanner.py -l domains.txt
 ```
 Common Flags
 Bash
-
+```
 # Only crawl, skip vulnerability scanning
 python3 scanner.py example.com --crawl-only
-
+```
 # Skip subdomain enumeration
 python3 scanner.py -l alive_hosts.txt --skip-subfinder
-
+```
 # High-severity only, fast scan
 python3 scanner.py example.com --severity high,critical --concurrency 50
-
+```
 # Resume a previously interrupted scan
 python3 scanner.py example.com --resume
-
+```
 # Custom threads and rate limit
 python3 scanner.py example.com -t 100 --rate-limit 200
-
+```
 # Custom output directory
 python3 scanner.py example.com -o /tmp/my_scan
-
+```
 Telegram Notifications (Optional)
 Bash
 ```
@@ -79,10 +79,10 @@ export TELEGRAM_CHAT_ID="your-chat-id"
 python3 scanner.py example.com
 ```
 📂 Output Structure
-
+```
 After running, results are saved to output/ directory:
 Plaintext
-
+```
 output/
   [example.com/](https://example.com/)
       subdomains.txt        ← All discovered subdomains
