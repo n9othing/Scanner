@@ -39,6 +39,7 @@ cd Scanner
 🚀 Usage
 
 Basic Usage
+python3 scanner.py tiktok.com
 Bash
 ```
 # Single domain
